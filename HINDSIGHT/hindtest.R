@@ -3,7 +3,7 @@
 source('hindsightpp.R') # Load main function
 
 # We use 'pollution.csv; for testing purposes
-files = c('../pollution.csv', '../pollution.csv') # Input files (separated by comma)
+files = c('../pollution.csv') # Input files (separated by comma)
 
 res = hindsightpp(files, 
                   nfeatures = 6, nlags = 5, msteps = 2, fs_method = 'rfe',
