@@ -4,7 +4,7 @@ HINDSIGHT++: Automated Machine Learning for Time Series Forecasting with Long Sh
 Version 1.0
 
 Run the software:
-  - Open the 'hindtest.R' function
+  - Open the 'hindtest.R' function (set the current working directory to the HINDSIGHT folder)
   - Input data files (a test file is provided for testing purposes)
 
 Contact Details:
