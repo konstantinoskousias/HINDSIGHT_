@@ -89,7 +89,7 @@ hindsightpp <- function(files,
     }
   
     # De-normalize predicted data
-    datasets_denormalized <- reverse_prep(prep_params, prep_option)
+    datasets_denormalized <- reverse_prep(prep_params)
     yhat_train_back <<- datasets_denormalized[1]
     yhat_val_back <<- datasets_denormalized[2]
     yhat_test_back <<- datasets_denormalized[3]
