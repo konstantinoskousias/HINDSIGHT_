@@ -1,4 +1,4 @@
-reverse_prep <- function(prep_params, prep_option) {
+reverse_prep <- function(prep_params) {
     for (i in 1:dim(as.data.frame(y_train))[2]) {
         n = ceiling(i/dim(y_train)[2])
         if (i == 1) {
